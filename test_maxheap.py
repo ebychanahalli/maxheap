@@ -18,7 +18,6 @@ def test_maxheap():
     assert maxHeap.heappop(heap) == 3
     assert maxHeap.heappop(heap) == 2
     assert maxHeap.heappop(heap) == 1
-    # assert heap == [6, 4,3, 1, 2]
 
     # Test heappushpop
     heap = [1, 2, -3, 4, -5]
